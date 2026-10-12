@@ -3,15 +3,16 @@ requires = ["setuptools>=68"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "linkedin-keyword-signal-monitor"
+name = "insignal-b2b-prospector"
 version = "0.1.0"
-description = "LinkedIn Keyword Signal Monitor & B2B Lead Intelligence Engine: Discovers high-intent posts, scores decision-makers, and enriches contacts with DNS MX verified corporate emails."
+description = "InSignal: LinkedIn Keyword Signal Monitor & B2B Lead Intelligence Engine. Real-time post signal tracking, decision-maker scoring, and DNS MX verified corporate contacts."
 readme = "README.md"
 requires-python = ">=3.11"
 authors = [{ name = "Jignesh Kumar" }]
 dependencies = ["curl_cffi>=0.7", "playwright>=1.40"]
 
 [project.scripts]
+insignal = "linkedin_listener.cli:main"
 linkedin-listener = "linkedin_listener.cli:main"
 linkedin-signal-monitor = "linkedin_listener.signal:main"
 linkedin-signal = "linkedin_listener.signal:main"

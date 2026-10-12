@@ -1,4 +1,6 @@
-# LinkedIn Keyword Signal Monitor & B2B Lead Intelligence Engine
+# InSignal-B2B-Prospector
+
+**Real-Time LinkedIn Keyword Signal Tracker, Decision-Maker Scoring & DNS MX Verified Contact Intelligence Engine**
 
 [![Python Version](https://img.shields.io/badge/python-3.11%2B-blue.svg)](https://www.python.org/)
 [![Playwright](https://img.shields.io/badge/playwright-1.40%2B-green.svg)](https://playwright.dev/)
@@ -115,7 +117,7 @@ This codebase evolved through five distinct problem-solving phases during active
 For a clean and professional GitHub repository, organize your files as follows:
 
 ```
-linkedin-keyword-signal-monitor/
+InSignal-B2B-Prospector/
 ├── .gitignore                      # Configured to exclude profiles, credentials & outputs
 ├── README.md                       # Comprehensive documentation
 ├── pyproject.toml                  # Package dependencies & CLI entrypoints
@@ -184,8 +186,8 @@ When preparing this repository for a professional public or private GitHub uploa
 ### 1. Clone & Set Up Virtual Environment
 
 ```bash
-git clone https://github.com/your-username/linkedin-keyword-signal-monitor.git
-cd linkedin-keyword-signal-monitor
+git clone https://github.com/Jigneshxi/InSignal-B2B-Prospector.git
+cd InSignal-B2B-Prospector
 
 python -m venv .venv
 # Windows:
