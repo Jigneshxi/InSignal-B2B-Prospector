@@ -5,11 +5,10 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "linkedin-keyword-signal-monitor"
 version = "0.1.0"
-description = "Monitor LinkedIn keywords and hashtags. Find new posts and the people who post, comment, or react."
+description = "LinkedIn Keyword Signal Monitor & B2B Lead Intelligence Engine: Discovers high-intent posts, scores decision-makers, and enriches contacts with DNS MX verified corporate emails."
 readme = "README.md"
 requires-python = ">=3.11"
-license = { text = "MIT" }
-authors = [{ name = "Gafar Akinkunmi" }]
+authors = [{ name = "Jignesh Kumar" }]
 dependencies = ["curl_cffi>=0.7", "playwright>=1.40"]
 
 [project.scripts]

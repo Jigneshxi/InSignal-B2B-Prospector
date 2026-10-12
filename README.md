@@ -4,7 +4,6 @@
 [![Playwright](https://img.shields.io/badge/playwright-1.40%2B-green.svg)](https://playwright.dev/)
 [![curl_cffi](https://img.shields.io/badge/curl__cffi-0.7%2B-orange.svg)](https://github.com/yifeikong/curl_cffi)
 [![DNS MX Verified](https://img.shields.io/badge/verification-DNS%20MX%20Verified-brightgreen.svg)](https://www.dnspython.org/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 An enterprise-grade, anti-ban LinkedIn signal monitoring, post discovery, and lead intelligence system. 
 
@@ -29,7 +28,6 @@ It monitors high-intent industry keywords and hashtags, discovers active posts w
 - [Output Data Dictionary](#-output-data-dictionary)
 - [Safety & Anti-Ban Architecture](#-safety--anti-ban-architecture)
 - [Security, Privacy & Ethics](#-security-privacy--ethics)
-- [License](#-license)
 
 ---
 
@@ -119,7 +117,6 @@ For a clean and professional GitHub repository, organize your files as follows:
 ```
 linkedin-keyword-signal-monitor/
 ├── .gitignore                      # Configured to exclude profiles, credentials & outputs
-├── LICENSE                         # MIT License
 ├── README.md                       # Comprehensive documentation
 ├── pyproject.toml                  # Package dependencies & CLI entrypoints
 │
@@ -351,9 +348,3 @@ To protect your LinkedIn account from throttling and bans, this project implemen
 - **Never Commit Credentials**: Your `.li-profile/` directory contains active login cookies. Keep it listed in `.gitignore` at all times.
 - **Respect Data Privacy**: Follow all applicable privacy regulations (such as GDPR and CCPA) regarding personal data and cold outreach.
 - **Terms of Service**: This tool is designed for educational, research, and authorized personal use. Users are responsible for complying with LinkedIn's Terms of Service.
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
