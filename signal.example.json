@@ -1,0 +1,16 @@
+{
+  "watches": [
+    {
+      "id": "cold-email",
+      "keywords": "Cold email",
+      "max_age_days": 7,
+      "facets": {}
+    },
+    {
+      "id": "brightonseo",
+      "keywords": "#brightonseo",
+      "max_age_days": 7,
+      "facets": {}
+    }
+  ]
+}

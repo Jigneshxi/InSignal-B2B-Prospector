@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "linkedin-keyword-signal-monitor"
+version = "0.1.0"
+description = "Monitor LinkedIn keywords and hashtags. Find new posts and the people who post, comment, or react."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [{ name = "Gafar Akinkunmi" }]
+dependencies = ["curl_cffi>=0.7", "playwright>=1.40"]
+
+[project.scripts]
+linkedin-listener = "linkedin_listener.cli:main"
+linkedin-signal-monitor = "linkedin_listener.signal:main"
+linkedin-signal = "linkedin_listener.signal:main"
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "ruff>=0.4"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+linkedin_listener = ["data/*.json"]
+
+[tool.ruff]
+line-length = 100
+
+[tool.ruff.lint]
+ignore = [
+  "BLE001", # blind except is deliberate around network calls
+  "S110",   # try-except-pass is deliberate around best-effort waits
+  "S112",   # try-except-continue is deliberate in retry loops
+  "SIM115", # writers intentionally hold open file handles
+]
