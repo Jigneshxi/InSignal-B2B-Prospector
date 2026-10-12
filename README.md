@@ -13,8 +13,19 @@ It monitors high-intent industry keywords and hashtags, discovers active posts w
 
 ---
 
+## 📺 Video Walkthrough & Project Demo
+
+> 📹 **Watch the in-depth architecture walkthrough, live pipeline demonstration, and DNS MX verification demo:**
+>
+> [![InSignal Walkthrough Demo](https://img.shields.io/badge/▶%20Watch%20Demo-YouTube%20%2F%20Loom-red?style=for-the-badge&logo=youtube)](YOUR_VIDEO_LINK_HERE)
+>
+> *(Click the badge above to watch the full video walkthrough, code demonstration, and output review)*
+
+---
+
 ## 📑 Table of Contents
 
+- [Video Walkthrough & Demo](#-video-walkthrough--project-demo)
 - [Overview & Architecture](#-overview--architecture)
 - [How It Solved Real Problems: Evolutionary Journey](#-how-it-solved-real-problems-evolutionary-journey)
 - [Key Features](#-key-features)
